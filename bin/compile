@@ -2,3 +2,6 @@
 
 echo "-----> Initializing CGI Proxy"
 $1/public_html/cgiproxy/nph-proxy.cgi init
+
+echo "-----> Enabling HTTPS support"
+$1/public_html/cgiproxy/nph-proxy.cgi install-modules
