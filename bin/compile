@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "-----> Initializing CGI Proxy"
+$1/public_html/cgiproxy/nph-proxy.cgi init
